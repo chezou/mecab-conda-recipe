@@ -10,6 +10,8 @@ build:
   number: 1
 
 requirements:
+  build:
+    - swig
   run:
     - libgcc
 
