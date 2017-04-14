@@ -1,0 +1,18 @@
+package:
+  name: mecab
+  version: "0.996"
+
+source:
+  git_url: https://github.com/taku910/mecab
+  git_rev: 32041d9504d11683ef80a6556173ff43f79d1268
+
+build:
+  number: 1
+
+requirements:
+  run:
+    - libgcc
+
+about:
+  home: http://taku910.github.io/mecab
+  license: BSD,LGPL,GPL
